@@ -19,3 +19,10 @@ input#id, input#pw {
 	font-size: 35px;
 	width: 320px;
 }
+
+input#check_btn {
+	font-size: 30px;
+	font-family: 휴먼고딕체;
+	background-color: #ffffff;
+	border: 0px;
+}
