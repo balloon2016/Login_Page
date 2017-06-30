@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+	font-size: 40px;
+	font-family: 휴먼고딕체;
+	text-align: center;
+}
+
+p#title {
+	font-size: 42px;
+}
+
+div#credit {
+	font-size: 31px;
+	margin: 20px;
+}
+
+input#id, input#pw {
+	font-size: 35px;
+	width: 320px;
+}
