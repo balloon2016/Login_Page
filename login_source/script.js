@@ -5,8 +5,6 @@ $(document).ready(function(){
 			//id에 적은 내용을 불러옴.
 		var pw_text = $('input#pw').val();
 			//pw에 적은 내용을 불러옴.
-		var status = 1;
-			//반복문에서 경고를 여러번 띄우는 오류를 막기 위해 이 변수를 선언함.
 
 		for(var n = 0; n < id.length; n++) {
 			if(id[n] == id_text) {
@@ -36,17 +34,13 @@ $(document).ready(function(){
 				//경고문을 띄움.
 				break;
 				//그리고 반복문을 종료함.
-			}else if(id_text != id[n] && status == id.length) {
+			}else if(id_text != id[n]) {
 				//아이디가 일치하지 않고 status가 아이디의 갯수와 똑같을 시.
 				//참고로 status가 왜 있어야하는지 알고싶다면 위의 status를 var status=0;으로 바꿔서 확인해보면 된다.
 				alert('존재하지 않는 아이디입니다');
 				//역시 경고문을 띄움.
 				break;
 				//그리고 종료!
-			}else{
-				//지금까지 적은 조건들이 모두 해당하지 않을 시.
-				status++;
-				//변수 status를 1 더함.
 			}
 		}
 	});
