@@ -1,7 +1,11 @@
 var id = [
-	'admin'
+	'test',
+	'test',
+	'test'
 ];
 
 var pw = [
-	'admin2016'
+	'test1',
+	'test2',
+	'test3'
 ];
